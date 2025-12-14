@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2b197a;
+  --secondary-color: #f8c200;
+  --text-dark: #1a1a1a;
+  --text-light: #ffffff;
+
+  --radius-lg: 20px;
+  --radius-md: 12px;
+}
