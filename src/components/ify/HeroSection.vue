@@ -2,6 +2,8 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import heroImage1 from '@/assets/ify/heroImage1.svg'
 import heroImage2 from '@/assets/ify/heroImage2.svg'
+import heroArrowLeft from '@/assets/icons/heroArrowLeft.svg'
+import heroArrowRight from '@/assets/icons/heroArrowRight.svg'
 
 const slides = ref([
   {
@@ -40,7 +42,8 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section class="relative h-[90vh] overflow-hidden">
+  <NavBar />
+  <section class="relative h-[100vh] overflow-hidden">
     <div
       v-for="(slide, index) in slides"
       :key="slide.id"
@@ -52,57 +55,32 @@ onBeforeUnmount(() => {
         backgroundPosition: 'center',
       }"
     >
-      <!-- Overlay -->
       <div class="absolute inset-0 bg-black/40"></div>
 
-      <!-- Content -->
       <div
-        class="relative container mx-auto w-full px-6 text-white h-full flex flex-col justify-center"
+        class="absolute left-20 md:left-40 top-1/2 transform -translate-y-1/2 flex flex-col space-y-3 z-20"
       >
-        <div class="max-w-xl">
-          <h1 class="text-4xl md:text-6xl font-bold mb-10 drop-shadow-lg">
-            {{ slide.title }}
-          </h1>
-          <p class="text-lg md:text-xl leading-relaxed drop-shadow-md">
-            {{ slide.text }}
-          </p>
+        <div class="flex gap-5 md:gap-8">
+          <div class="flex flex-col gap-[5vh]">
+            <button @click="prevSlide">
+              <img :src="heroArrowLeft" alt="" />
+            </button>
+            <button @click="nextSlide">
+              <img :src="heroArrowRight" alt="" />
+            </button>
+          </div>
+          <div class="mx-auto px-6 text-white max-w-2xl h-full flex flex-col justify-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
+              {{ slide.title }}
+            </h1>
+            <p class="text-lg md:text-xl leading-relaxed drop-shadow-md">
+              {{ slide.text }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Navigation arrows -->
-    <div class="absolute left-6 top-1/2 transform -translate-y-1/2 flex flex-col space-y-3 z-20">
-      <button @click="prevSlide" class="p-2 bg-yellow-500 rounded-full hover:bg-yellow-400">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5 rotate-180"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M12.293 15.707a1 1 0 010-1.414L15.586 11H4a1 1 0 110-2h11.586l-3.293-3.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </button>
-      <button @click="nextSlide" class="p-2 bg-yellow-500 rounded-full hover:bg-yellow-400">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M12.293 15.707a1 1 0 010-1.414L15.586 11H4a1 1 0 110-2h11.586l-3.293-3.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </button>
-    </div>
-
-    <!-- Slide indicators -->
     <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
       <span
         v-for="(slide, index) in slides"

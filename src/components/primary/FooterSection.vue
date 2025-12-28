@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-[#000847] text-white pt-5 pb-6">
-    <div class="max-w-[80%] flex items-center justify-between mx-auto mb-5 mt-1 flex-wrap gap-10">
+    <div class="container flex items-center justify-between mx-auto mb-5 mt-1 flex-wrap gap-10">
       <div class="flex gap-5 items-center flex-wrap">
         <img
           src="../../assets/logo.svg"

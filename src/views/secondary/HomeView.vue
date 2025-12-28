@@ -39,7 +39,9 @@ import newsImage from '@/assets/news-image.svg'
           backgroundPosition: 'center',
         }"
       ></div>
-      <div class="relative top-[50vh] bg-[#F4F5FA] mb-[80vh] py-20 max-w-7xl mx-auto px-6 lg:px-12">
+      <div
+        class="relative top-[50vh] bg-[#F4F5FA] mb-[80vh] py-20 max-w-[80%] mx-auto px-6 lg:px-12"
+      >
         <div class="text-center mb-16">
           <h2 class="text-4xl md:text-5xl font-semibold">Why</h2>
           <h2 class="text-4xl md:text-5xl text-gray-500 font-semibold mt-[2vh]">
@@ -136,6 +138,20 @@ import newsImage from '@/assets/news-image.svg'
                 prepares them for success in an ever-changing world.
               </p>
             </div>
+            <div v-if="activeTab === 'academic'">
+              <p class="text-base leading-relaxed mb-8">
+                We offer a broad range of subjects at both the Junior and Senior Secondary levels,
+                expertly combining the Nigerian and British Curricula. Our highly qualified
+                specialist teachers deliver lessons through interactive and immersive methods that
+                bring learning to life.
+              </p>
+              <p class="text-base leading-relaxed mb-8">
+                At Brookstone Secondary School, students are well prepared for national, regional,
+                and international examinations, consistently achieving outstanding results across
+                all levels. We are committed to providing the individual attention and support each
+                learner needs to reach their fullest potential.
+              </p>
+            </div>
 
             <div v-else class="text-gray-600">
               <p>{{ getActiveContent }}</p>
@@ -211,7 +227,7 @@ import newsImage from '@/assets/news-image.svg'
     </section>
 
     <section class="py-[20vh] bg-white">
-      <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="max-w-[80%] mx-auto px-6 text-center">
         <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
           Upcoming Events & Activities
         </h2>

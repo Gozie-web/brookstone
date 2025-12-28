@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-[#0A0F4C] text-white pt-12 pb-6">
-    <div class="container mx-auto flex space-x-10 items-center px-6 mb-5 mt-5">
+    <div class="container mx-auto flex space-x-10 items-center mb-5 mt-5">
       <img
         src="../../assets/logo.svg"
         alt="Brookstone Logo"
@@ -15,7 +15,7 @@
 
     <div class="border-t-2 border-yellow-600 pt-8"></div>
 
-    <div class="container mx-auto px-6 text-sm">
+    <div class="container mx-auto text-sm">
       <div class="flex gap-20 flex-wrap">
         <div class="flex-1">
           <p class="text-gray-300 mb-6 text-lg leading-relaxed max-w-2xs">

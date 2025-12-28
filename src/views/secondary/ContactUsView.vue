@@ -11,10 +11,8 @@ import PageBannerImage from '@/assets/page-banner-image.svg'
 
     <PageBanner title="Contact Brookstone" :background="PageBannerImage" />
 
-    <!-- Contact Section -->
     <section class="bg-[#f7f8fc] py-20">
-      <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12">
-        <!-- Left Side: Info -->
+      <div class="max-w-[80%] mx-auto px-6 grid md:grid-cols-2 gap-12">
         <div>
           <h2 class="text-3xl font-bold mb-4 text-gray-900">Contact Our School</h2>
           <p class="text-gray-600 mb-6">
@@ -46,7 +44,6 @@ import PageBannerImage from '@/assets/page-banner-image.svg'
           </div>
         </div>
 
-        <!-- Right Side: Form -->
         <form class="space-y-4">
           <div class="grid grid-cols-2 gap-4">
             <input
@@ -96,7 +93,6 @@ import PageBannerImage from '@/assets/page-banner-image.svg'
       </div>
     </section>
 
-    <!-- Map Section -->
     <section class="relative w-full h-[500px] border-t border-yellow-400">
       <iframe
         class="absolute inset-0 w-full h-full"

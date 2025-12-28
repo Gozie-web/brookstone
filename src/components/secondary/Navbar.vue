@@ -6,8 +6,8 @@ const mobileOpen = ref(false)
 
 <template>
   <header class="bg-[#2b197a] text-white">
-    <nav class="container mx-auto flex items-center justify-between h-30">
-      <router-link to="/" class="flex space-x-5 items-center px-6 pb-5 pt-5">
+    <nav class="max-w-[80%] mx-auto flex items-center justify-between h-30">
+      <router-link to="/" class="flex space-x-5 items-center pb-5 pt-5">
         <img
           src="../../assets/logo.svg"
           alt="Brookstone Logo"

@@ -31,10 +31,9 @@ import instagram from '@/assets/icons/instagram.svg'
     </section>
 
     <section class="my-[10vh]">
-      <div class="container mx-auto flex gap-20 items-center flex-wrap">
+      <div class="max-w-[90%] md:max-w-[80%] mx-auto flex gap-20 items-center flex-wrap">
         <div class="min-w-[300px] flex-1 px-10 py-[10vh] bg-white shadow-lg rounded-xl">
           <form class="space-y-10">
-            <!-- Full Name -->
             <div>
               <label class="block text-sm font-medium mb-1">Full name</label>
               <input
@@ -44,7 +43,6 @@ import instagram from '@/assets/icons/instagram.svg'
               />
             </div>
 
-            <!-- Email -->
             <div>
               <label class="block text-sm font-medium mb-1">Email</label>
               <input
@@ -54,7 +52,6 @@ import instagram from '@/assets/icons/instagram.svg'
               />
             </div>
 
-            <!-- Message -->
             <div>
               <label class="block text-sm font-medium mb-1">Message</label>
               <textarea
@@ -64,7 +61,6 @@ import instagram from '@/assets/icons/instagram.svg'
               ></textarea>
             </div>
 
-            <!-- Checkbox -->
             <div class="flex items-start gap-3 mt-4">
               <input type="checkbox" class="w-4 h-4 mt-1 border-gray-400 rounded" />
               <p class="text-sm text-gray-700 leading-relaxed">
@@ -72,7 +68,6 @@ import instagram from '@/assets/icons/instagram.svg'
               </p>
             </div>
 
-            <!-- Button -->
             <button
               class="bg-[#E4A400] text-[#060F4A] px-6 py-2 rounded-full text-sm font-medium mt-3 hover:bg-[#D09500]"
             >

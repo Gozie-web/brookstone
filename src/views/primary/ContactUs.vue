@@ -27,7 +27,7 @@ import contactUsHero from '@/assets/primary/contactUsHero.svg'
     </section>
 
     <section class="bg-[#FBFBFB] py-16 my-10">
-      <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-[90%] md:max-w-[80%] mx-auto px-6">
         <div class="bg-white shadow-sm rounded-xl p-10 flex flex-col md:flex-row gap-14">
           <div class="flex-1 mt-[7vh]">
             <form class="space-y-7">
@@ -169,7 +169,7 @@ import contactUsHero from '@/assets/primary/contactUsHero.svg'
     </section>
 
     <section class="bg-[#2B197A] py-20">
-      <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-12">
+      <div class="max-w-[90%] md:max-w-[80%] mx-auto px-6 flex flex-col md:flex-row gap-12">
         <div class="md:w-1/3">
           <h2 class="text-white text-4xl font-semibold leading-tight">
             Frequently<br />
@@ -207,7 +207,7 @@ import contactUsHero from '@/assets/primary/contactUsHero.svg'
     </section>
 
     <section>
-      <div class="w-full md:p-20">
+      <div class="max-w-[90%] md:max-w-[80%] mx-auto py-[20vh]">
         <div class="relative h-[50vh] md:h-[70vh]">
           <iframe
             class="absolute inset-0 w-full h-full rounded-2xl"

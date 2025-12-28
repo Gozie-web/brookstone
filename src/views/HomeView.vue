@@ -2,7 +2,6 @@
 import HeroSection from '@/components/HeroSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import missionIcon from '@/assets/mission-icon.svg'
-import visionIcon from '@/assets/vision-icon.svg'
 import goalIcon from '@/assets/goal-icon.svg'
 import primaryStudents from '@/assets/primary-students.svg'
 import secondaryStudents from '@/assets/secondary-students.svg'
@@ -29,7 +28,6 @@ import AICENIcon from '@/assets/AICENIcon.svg'
 
 <template>
   <main class="max-w-full">
-    <!-- Hero Section -->
     <HeroSection />
 
     <section class="bg-[#F6F8FF]">
@@ -174,7 +172,6 @@ import AICENIcon from '@/assets/AICENIcon.svg'
       </div>
     </section>
 
-    <!-- Primary / Secondary / IFY Sections -->
     <section class="grid grid-cols-1 md:grid-cols-2">
       <div class="bg-[#2B197A] text-white flex flex-col justify-center px-10 py-16">
         <h3 class="text-3xl font-bold mb-4">Primary</h3>
@@ -232,7 +229,7 @@ import AICENIcon from '@/assets/AICENIcon.svg'
     </section>
 
     <section class="py-[20vh] bg-white">
-      <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="max-w-[80%] mx-auto px-6 text-center">
         <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Events & Activities</h2>
         <p class="text-gray-500 my-10 text-2xl font-[200] max-w-2xl mx-auto">
           Explore our calendar of academic, cultural, and social activities designed to enrich

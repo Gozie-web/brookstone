@@ -10,7 +10,7 @@ import NewsHeroImage from '@/assets/secondary/NewsHeroImage.svg'
     <Navbar />
 
     <section
-      class="container mx-auto my-10 relative h-[70vh] flex items-end text-white"
+      class="max-w-[80%] mx-auto my-10 relative h-[70vh] flex items-end text-white"
       :style="{
         backgroundImage: `url(${NewsHeroImage})`,
         backgroundSize: 'cover',
@@ -18,7 +18,7 @@ import NewsHeroImage from '@/assets/secondary/NewsHeroImage.svg'
       }"
     ></section>
 
-    <section class="mt-5 mb-20 max-w-[90%] mx-auto flex gap-10 md:gap-20 flex-wrap">
+    <section class="mt-5 mb-20 max-w-[80%] mx-auto flex gap-10 md:gap-20 flex-wrap">
       <div class="flex-1 min-w-[300px]">
         <p class="text-gray-500">Events <span class="text-[#28156E]">/ Details</span></p>
 

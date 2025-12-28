@@ -15,7 +15,7 @@ import quotes from '@/assets/icons/quotes.svg'
     <HeroSection />
 
     <section class="bg-[#F6F8FF] py-[15vh]">
-      <div class="flex container mx-auto gap-10 items-center flex-wrap">
+      <div class="flex max-w-[80%] mx-auto gap-10 items-center flex-wrap">
         <div class="flex gap-5 max-w-[500px]">
           <img :src="check" style="width: 4rem; height: 4rem" alt="check" />
           <div>
@@ -44,14 +44,12 @@ import quotes from '@/assets/icons/quotes.svg'
       <div
         class="relative bg-[#28156E] rounded-3xl max-w-6xl w-full flex flex-col md:flex-row p-10 md:p-14"
       >
-        <!-- Image -->
         <div class="md:w-1/3 flex justify-center items-start">
           <div class="relative">
             <img :src="commissioner" alt="Student" class="rounded-xl w-48 h-60 object-cover" />
           </div>
         </div>
 
-        <!-- Text Content -->
         <div class="md:w-2/3 mt-8 md:mt-0 md:pl-10 text-left">
           <p class="text-white text-md leading-relaxed mb-[3vh]">
             "Brookstone already enjoys an extremely strong reputation as a quality education

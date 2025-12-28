@@ -6,6 +6,7 @@ import FooterSection from '@/components/secondary/FooterSection.vue'
 import aboutImage from '@/assets/secondary/aboutImage.svg'
 import programImage from '@/assets/secondary/programImage.svg'
 import moreInfoBackground from '@/assets/secondary/moreInfoBackground.svg'
+import staffBackground from '@/assets/secondary/staffBackground.svg'
 import sadiku from '@/assets/secondary/sadiku.svg'
 import dokubo from '@/assets/secondary/dokubo.svg'
 import cyprian from '@/assets/secondary/cyprian.svg'
@@ -20,8 +21,8 @@ import patrick from '@/assets/secondary/patrick.svg'
 
     <PageBanner title="Brookstone School (Secondary)" :background="PageBannerImage" />
 
-    <section class="py-16 px-6 md:px-12 lg:px-20 bg-[#f7f8fc]">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-16 bg-[#f7f8fc]">
+      <div class="max-w-[80%] mx-auto">
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div class="">
             <img
@@ -171,25 +172,23 @@ import patrick from '@/assets/secondary/patrick.svg'
         </div>
       </div>
 
-      <div class="bg-[#291969] py-10">
-        <div class="relative max-w-3xl md:max-w-5xl mx-auto px-4 md:px-0">
+      <div class="bg-[#291969] py-10 h-[115vh] overflow-y-scroll">
+        <div class="relative max-w-3xl md:max-w-5xl mx-auto px-4">
           <div
-            class="invisible md:visible absolute top-0 left-1/2 -translate-x-1/2 w-[2px] h-full bg-white/20 pointer-events-none"
+            class="invisible md:visible absolute -top-10 left-1/2 -translate-x-1/2 w-[2px] h-[102%] bg-white/20 pointer-events-none"
           ></div>
 
-          <div class="flex flex-col space-y-14 md:space-y-20">
-            <div class="relative grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 items-start">
-              <div class="hidden md:flex w-full justify-end pr-6">
-                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 py-2 md:py-4 font-base">
-                  2006
-                </div>
+          <div class="flex flex-col">
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="hidden md:flex flex-1 pr-6 w-full justify-end">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2006</div>
               </div>
 
               <div
-                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full absolute left-1/2 -translate-x-1/2 top-2 md:top-[10px]"
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
               ></div>
 
-              <div class="w-full md:w-auto md:pl-6">
+              <div class="w-full md:w-auto md:pl-6 pr-5 md:pr-0 flex-1">
                 <div class="flex md:hidden mb-3">
                   <span class="text-gray-300 text-2xl font-medium">2006</span>
                 </div>
@@ -203,10 +202,8 @@ import patrick from '@/assets/secondary/patrick.svg'
               </div>
             </div>
 
-            <div
-              class="relative grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 items-start pt-8 md:pt-[15vh]"
-            >
-              <div class="w-full md:w-auto md:pl-6 md:order-1 order-2">
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="w-full md:w-auto md:pr-6 pl-5 md:pl-0 flex-1">
                 <div class="flex md:hidden mb-3">
                   <span class="text-gray-300 text-2xl font-medium">2009</span>
                 </div>
@@ -220,39 +217,221 @@ import patrick from '@/assets/secondary/patrick.svg'
               </div>
 
               <div
-                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full absolute left-1/2 -translate-x-1/2 top-2 md:top-[10px]"
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
               ></div>
 
-              <div class="hidden md:flex w-full pr-6 md:order-2 order-1">
-                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 py-2 md:py-4 font-base">
-                  2009
-                </div>
+              <div class="hidden md:flex flex-1 pr-6 w-full">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2009</div>
               </div>
             </div>
 
-            <div
-              class="relative grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 items-start pt-8 md:pt-[15vh]"
-            >
-              <div class="hidden md:flex w-full justify-end pr-6">
-                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 py-2 md:py-4 font-base">
-                  2011
-                </div>
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="hidden md:flex flex-1 pr-6 w-full justify-end">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2011</div>
               </div>
 
               <div
-                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full absolute left-1/2 -translate-x-1/2 top-2 md:top-[10px]"
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
               ></div>
 
-              <div class="w-full md:w-auto md:pl-6">
+              <div class="w-full md:w-auto md:pl-6 pr-5 md:pr-0 flex-1">
                 <div class="flex md:hidden mb-3">
                   <span class="text-gray-300 text-2xl font-medium">2011</span>
                 </div>
 
                 <div
-                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-green-500 text-sm md:text-base leading-relaxed"
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-green-400 text-sm md:text-base leading-relaxed"
                 >
                   <strong>Pioneer Success:</strong> Our first graduating class achieved a 100%
                   transition into university.
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="w-full md:w-auto md:pr-6 pl-5 md:pl-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2012</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-red-600 text-sm md:text-base leading-relaxed"
+                >
+                  Awarded British International School of the Year by Finance for Independent
+                  Schools Magazine (Birmingham, England), in recognition of excellence in strategic
+                  planning, student achievement, educational partnerships, and vision realization.
+                </div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="hidden md:flex flex-1 pr-6 w-full">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2012</div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="hidden md:flex flex-1 pr-6 w-full justify-end">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2014</div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="w-full md:w-auto md:pl-6 pr-5 md:pr-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2014</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-yellow-600 text-sm md:text-base leading-relaxed"
+                >
+                  In partnership with NCUK, launched the International Foundation Year (IFY)
+                  programme in Port Harcourt, offering guaranteed admission into degree programmes
+                  at partner universities in the UK, Canada, USA, Australia, and New Zealand.
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="w-full md:w-auto md:pr-6 pl-5 md:pl-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2016</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-gray-500 text-sm md:text-base leading-relaxed"
+                >
+                  Celebrated 10 years of academic excellence and continuous improvement. One of our
+                  students won Best in Nigeria Award in English as a Second Language.
+                </div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="hidden md:flex flex-1 pr-6 w-full">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2016</div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="hidden md:flex flex-1 pr-6 w-full justify-end">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2017</div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="w-full md:w-auto md:pl-6 pr-5 md:pr-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2017</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-purple-600 text-sm md:text-base leading-relaxed"
+                >
+                  Established the International Foundation Year (IFY) programme in Abuja.
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="w-full md:w-auto md:pr-6 pl-5 md:pl-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2019</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-yellow-300 text-sm md:text-base leading-relaxed"
+                >
+                  Brookstone School (Secondary) students won Top in the World Award in English as a
+                  Second Language.
+                </div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="hidden md:flex flex-1 pr-6 w-full">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2019</div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="hidden md:flex flex-1 pr-6 w-full justify-end">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2020</div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="w-full md:w-auto md:pl-6 pr-5 md:pr-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2020</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-pink-600 text-sm md:text-base leading-relaxed"
+                >
+                  Another student won Best in Nigeria Award in Mathematics.
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="w-full md:w-auto md:pr-6 pl-5 md:pl-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2023</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-[#8383FE] text-sm md:text-base leading-relaxed"
+                >
+                  Two of our Students won Top in the World Awards in English as a Second Language.
+                </div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="hidden md:flex flex-1 pr-6 w-full">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2023</div>
+              </div>
+            </div>
+
+            <div class="flex justify-between pb-[15vh] md:h-[40vh] md:pb-0">
+              <div class="hidden md:flex flex-1 pr-6 w-full justify-end">
+                <div class="text-gray-300 text-3xl md:text-5xl px-4 md:px-6 font-base">2024</div>
+              </div>
+
+              <div
+                class="invisible md:visible w-3 h-3 bg-gray-300 rounded-full sticky md:top-0"
+              ></div>
+
+              <div class="w-full md:w-auto md:pl-6 pr-5 md:pr-0 flex-1">
+                <div class="flex md:hidden mb-3">
+                  <span class="text-gray-300 text-2xl font-medium">2024</span>
+                </div>
+
+                <div
+                  class="text-gray-300 p-5 md:p-10 rounded-xl border-[2px] md:border-[3px] border-green-500 text-sm md:text-base leading-relaxed"
+                >
+                  <ul>
+                    <li type="disc">Awarded Winner of the AISEN Senior Spoken Word Competition.</li>
+                    <li type="disc">
+                      Three students won Top in Nigeria Awards in English as a Second Language,
+                      Mathematics, and Economics.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -262,78 +441,107 @@ import patrick from '@/assets/secondary/patrick.svg'
     </section>
 
     <section>
-      <div class="bg-[#f7f8fc] py-[15vh]">
-        <div class="max-w-[90%] mx-auto">
-          <div class="">
-            <p class="mt-10 text-xl">OUR TEAM</p>
-            <p class="max-w-2xl text-6xl/[8vh] mt-5">
-              A team of Dedicated Professionals Shaping Future Leaders
-            </p>
-          </div>
-
-          <div class="flex gap-x-10 gap-y-20 mt-[10vh] w-full flex-wrap">
-            <div class="flex-1 max-w-1/3 min-w-[350px]">
-              <div class="bg-black rounded-2xl w-full">
-                <img :src="sadiku" alt="Team Member" class="w-full h-[55vh] object-contain pt-5" />
-              </div>
-              <p class="mt-4 text-4xl font-[200]">Dr. Bashiru Sadiku</p>
-              <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
-                PRINCIPAL
-              </button>
+      <div
+        class="w-full bg-cover bg-center"
+        :style="{
+          backgroundImage: `url(${staffBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }"
+      >
+        <div class="py-[15vh]">
+          <div class="max-w-[80%] mx-auto">
+            <div class="">
+              <p class="mt-10 text-xl">OUR TEAM</p>
+              <p class="max-w-2xl text-6xl/[8vh] mt-5">
+                A team of Dedicated Professionals Shaping Future Leaders
+              </p>
             </div>
 
-            <div class="flex-1 max-w-1/3 min-w-[350px]">
-              <div class="bg-black rounded-2xl w-full">
-                <img :src="dokubo" alt="Team Member" class="w-full h-[55vh] object-contain pt-5" />
+            <div class="flex gap-x-10 gap-y-20 mt-[10vh] w-full flex-wrap">
+              <div class="flex-1 max-w-1/3 min-w-[350px]">
+                <div class="bg-black rounded-2xl w-full h-[55vh]">
+                  <img
+                    :src="sadiku"
+                    alt="Team Member"
+                    class="w-full h-full rounded-2xl object-stretch pt-5"
+                  />
+                </div>
+                <p class="mt-4 text-4xl font-[200]">Dr. Bashiru Sadiku</p>
+                <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
+                  PRINCIPAL
+                </button>
               </div>
-              <p class="mt-4 text-4xl font-[200]">Dora Dokubo</p>
-              <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
-                DIRECTOR
-              </button>
-            </div>
 
-            <div class="flex-1 max-w-1/3 min-w-[350px]">
-              <div class="bg-black rounded-2xl w-full">
-                <img :src="cyprian" alt="Team Member" class="w-full h-[55vh] object-contain pt-5" />
+              <div class="flex-1 max-w-1/3 min-w-[350px]">
+                <div class="bg-black rounded-2xl w-full h-[55vh]">
+                  <img
+                    :src="dokubo"
+                    alt="Team Member"
+                    class="w-full h-full rounded-2xl object-stretch pt-5"
+                  />
+                </div>
+                <p class="mt-4 text-4xl font-[200]">Dora Dokubo</p>
+                <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
+                  DIRECTOR
+                </button>
               </div>
-              <p class="mt-4 text-4xl font-[200]">Cyprian Anyahucha</p>
-              <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
-                VICE PRINCIPAL
-              </button>
-            </div>
 
-            <div class="flex-1 max-w-1/3 min-w-[350px]">
-              <div class="bg-black rounded-2xl w-full">
-                <img
-                  :src="kingsley"
-                  alt="Team Member"
-                  class="w-full h-[55vh] object-contain pt-5"
-                />
+              <div class="flex-1 max-w-1/3 min-w-[350px]">
+                <div class="bg-black rounded-2xl w-full h-[55vh]">
+                  <img
+                    :src="cyprian"
+                    alt="Team Member"
+                    class="w-full h-full rounded-2xl object-stretch pt-5"
+                  />
+                </div>
+                <p class="mt-4 text-4xl font-[200]">Cyprian Anyahucha</p>
+                <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
+                  VICE PRINCIPAL
+                </button>
               </div>
-              <p class="mt-4 text-4xl font-[200]">Kingsley Iredia</p>
-              <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
-                CENTRE MANAGER IFY
-              </button>
-            </div>
 
-            <div class="flex-1 max-w-1/3 min-w-[350px]">
-              <div class="bg-black rounded-2xl w-full">
-                <img :src="mary" alt="Team Member" class="w-full h-[55vh] object-contain pt-5" />
+              <div class="flex-1 max-w-1/3 min-w-[350px]">
+                <div class="bg-black rounded-2xl w-full h-[55vh]">
+                  <img
+                    :src="kingsley"
+                    alt="Team Member"
+                    class="w-full h-full rounded-2xl object-stretch pt-5"
+                  />
+                </div>
+                <p class="mt-4 text-4xl font-[200]">Kingsley Iredia</p>
+                <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
+                  CENTRE MANAGER IFY
+                </button>
               </div>
-              <p class="mt-4 text-4xl font-[200]">Mrs. Mary Ogwashi</p>
-              <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
-                HEAD, SENIOR SCHOOL
-              </button>
-            </div>
 
-            <div class="flex-1 max-w-1/3 min-w-[350px]">
-              <div class="bg-black rounded-2xl w-full">
-                <img :src="patrick" alt="Team Member" class="w-full h-[55vh] object-contain pt-5" />
+              <div class="flex-1 max-w-1/3 min-w-[350px]">
+                <div class="bg-black rounded-2xl w-full h-[55vh]">
+                  <img
+                    :src="mary"
+                    alt="Team Member"
+                    class="w-full h-full rounded-2xl object-stretch pt-5"
+                  />
+                </div>
+                <p class="mt-4 text-4xl font-[200]">Mrs. Mary Ogwashi</p>
+                <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
+                  HEAD, SENIOR SCHOOL
+                </button>
               </div>
-              <p class="mt-4 text-4xl font-[200]">Mr. Patrick Oruene</p>
-              <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
-                HEAD, JUNIOR SCHOOL
-              </button>
+
+              <div class="flex-1 max-w-1/3 min-w-[350px]">
+                <div class="bg-black rounded-2xl w-full h-[55vh]">
+                  <img
+                    :src="patrick"
+                    alt="Team Member"
+                    class="w-full h-full rounded-2xl object-stretch pt-5"
+                  />
+                </div>
+                <p class="mt-4 text-4xl font-[200]">Mr. Patrick Oruene</p>
+                <button class="mt-2 py-1 font-[600] px-4 border-2 border-black rounded-full">
+                  HEAD, JUNIOR SCHOOL
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -343,3 +551,11 @@ import patrick from '@/assets/secondary/patrick.svg'
     <FooterSection />
   </div>
 </template>
+
+<style>
+.timeline-dot {
+  position: sticky;
+  /* top: 80vh; */
+  z-index: 20;
+}
+</style>

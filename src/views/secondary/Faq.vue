@@ -11,7 +11,7 @@ import FooterSection from '@/components/secondary/FooterSection.vue'
 
     <PageBanner title="Frequently Asked Questions" :background="PageBannerImage" />
 
-    <section class="container mx-auto">
+    <section class="max-w-[80%] mx-auto">
       <div class="my-[15vh]">
         <div
           v-for="(item, index) in faqs"

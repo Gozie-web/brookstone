@@ -1,14 +1,12 @@
 <script setup>
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
 import NavBar from '@/components/Navbar.vue'
 </script>
 
 <template>
   <NavBar />
   <div class="min-h-screen flex flex-col">
-    <main class="flex-1 flex items-center justify-center px-6 lg:px-12">
-      <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <main class="max-w-[80%] mx-auto flex-1 flex items-center justify-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="space-y-6 text-center lg:text-left">
           <p class="text-sm uppercase tracking-wider text-gray-500">404 — Page not found</p>
 
@@ -77,7 +75,7 @@ import NavBar from '@/components/Navbar.vue'
 
             <div class="mt-4 text-center">
               <router-link
-                to="/contact"
+                to="/"
                 class="inline-block text-sm px-4 py-2 rounded-md border border-gray-200 bg-yellow-500 text-gray-900 font-[600]"
               >
                 Go Back Home

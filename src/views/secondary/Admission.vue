@@ -40,7 +40,7 @@ import admissionIcon from '@/assets/primary/admissionIcon.svg'
         </p>
       </div>
 
-      <div class="container mx-auto flex my-[10vh] justify-stretch">
+      <div class="max-w-[80%] mx-auto flex my-[10vh] justify-stretch">
         <div class="relative border-t-4 w-full border-[#2B197A]">
           <div
             class="absolute top-[-1.3vh] right-[50%] w-4 h-4 rounded-full shadow-sm"
@@ -80,7 +80,7 @@ import admissionIcon from '@/assets/primary/admissionIcon.svg'
     </section>
 
     <section class="bg-[#F9F9F9] pb-20">
-      <div class="container mx-auto p-20 bg-white rounded-2xl shadow-sm">
+      <div class="max-w-[80%] mx-auto p-20 bg-white rounded-2xl shadow-sm">
         <form class="space-y-[8vh]">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>

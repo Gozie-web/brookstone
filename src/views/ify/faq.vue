@@ -26,7 +26,7 @@ import FooterSection from '@/components/ify/FooterSection.vue'
       </div>
     </section>
 
-    <section class="container mx-auto">
+    <section class="max-w-[90%] md:max-w-[80%] mx-auto">
       <p class="mt-[15vh] text-xl font-[200]">
         The International Foundation Year (IFY) program prepares the first year of a UK
         undergraduate degree program. Sccessful students are guaranteed direct entry into three
